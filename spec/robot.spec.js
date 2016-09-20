@@ -4,7 +4,7 @@ describe("Robot", function() {
   var robot = new Robot();
 
   it("robot bearing", function() {
-    var directions = [ 'east', 'west', 'north', 'south' ];
+   var directions = [ 'east', 'west', 'north', 'south' ];
 
     for (var i = 0; i < directions.length; i++) {
       var currentDirection = directions[i];
